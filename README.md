@@ -6,10 +6,8 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 
 ## 🚀 Live Demo
 
-🔗 [Live Demo on Vercel](#)  
-*(Will be updated after deployment)*
+🔗 https://pomodoro-app-lovat.vercel.app/
 
----
 
 ## 📸 Screenshots
 
@@ -61,7 +59,7 @@ pomodoro-app/ ├── public/ │ └── index.html ├── src/ │ ├�
 
 🌐 Deployment
 Deployed on Vercel.
-🔗 Live Demo
+🔗 Live Demo https://pomodoro-app-lovat.vercel.app/
 
 📄 License
 This project is licensed under the MIT License.
