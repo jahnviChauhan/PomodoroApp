@@ -4,12 +4,11 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
+ https://pomodoro-app-lovat.vercel.app/
 
-🔗 https://pomodoro-app-lovat.vercel.app/
 
-
-## 📸 Screenshots
+##  Screenshots
 
 ![Screenshot 1](./screenshots/timerDisplay.png)  
 *Main Timer Display*
@@ -19,7 +18,7 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 
 ---
 
-## 🎯 Features
+##  Features
 
 ✅ Start, Stop, Reset timer  
 ✅ Custom focus, break, and long break durations  
@@ -32,21 +31,21 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
-- ⚛️ React.js  
-- 🎨 CSS Modules  
-- 📦 Vite / Create React App (whichever you used)  
-- 🌐 Vercel for deployment (coming soon)
+- React.js  
+- CSS Modules  
+- Vite / Create React App (whichever you used)  
+- Vercel for deployment (coming soon)
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 pomodoro-app/ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ ├── TimerDisplay.jsx │ │ └── Controls.jsx │ ├── App.jsx │ └── index.js ├── screenshots/ │ ├── focus-mode.png │ ├── break-mode.png ├── README.md ├── package.json └── .gitignore
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repository**
    git clone https://github.com/your-username/pomodoro-app.git
@@ -57,11 +56,11 @@ pomodoro-app/ ├── public/ │ └── index.html ├── src/ │ ├�
 3. **Start the app**
    npm start
 
-🌐 Deployment
+Deployment
 Deployed on Vercel.
 🔗 Live Demo https://pomodoro-app-lovat.vercel.app/
 
-📄 License
+ License
 This project is licensed under the MIT License.
 
 👩‍💻 Author
