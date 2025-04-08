@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background: #525252;  
+  background: -webkit-linear-gradient(to right, #3d72b4, #525252);
+  background: linear-gradient(to right, #3d72b4, #525252); 
+
+}
+
+.pomodoro-container{
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+.app-name.light{
+  padding-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+    
+}
+
+
+.timer-container {
+  width: 250px;
+  height: 250px;
+  margin: 2rem auto; 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3rem;
+  color:white;
+
+  background: #525252;  
+  background: -webkit-linear-gradient(to right, #3d72b4, #525252);  
+  background: linear-gradient(to right, #3d72b4, #525252); 
+
+  border-radius: 50%; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+  
+
+.setting input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+} */ */
+
+.settings-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+
+.setting label {
+  margin-bottom: 0.3rem;
+  color: #dae3e6;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.setting input {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 150px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  backdrop-filter: blur(4px);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+.setting input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+
+.controls-container button{
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  background-color: #4b7191;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.counter{
+  margin-top: 20px;
+  font-weight: bolder;
+  color:bisque ;
+}
+
+.session-type{
+  font-size: 1.2rem; 
+  font-weight: bold;
+  color:white;
+  margin-bottom: 1rem;
+  }
+  
+.goal-status{
+  font-size:1rem ;
+  font-weight: bold;
+}
+
+
+
+/* Theme */
+
+
+.app-name.dark{
+  padding-top: 0;
+  margin-bottom: 1rem;
+  color: #924d4d;
+}
+
+.pomodoro-container.light {
+  background: rgba(255, 255, 255, 0.15);
+  color: #222;
+}
+
+.pomodoro-container.dark {
+  background: rgba(0, 0, 0, 0.4);
+  color: #f2f2f2;
+}
+
+
+.pomodoro-container.dark .timer-container {
+  background: linear-gradient(to right, #1f1f1f, #2d2d2d);
+  color: #fff;
+}
+
+.pomodoro-container.light .timer-container {
+  background: linear-gradient(to right, #3d72b4, #525252);
+  color: rgb(183, 201, 206);
+}
+
+
+.pomodoro-container.dark .setting input {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f2f2f2;
+}
+
+.pomodoro-container.dark .setting input:focus {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+
+.pomodoro-container.dark .controls-container button {
+  background-color: #333;
+  color: white;
+}
+
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4b7191;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.pomodoro-container.dark .theme-toggle {
+  background-color: #ddd;
+  color: #222;
+}
+
+
+
+
+
+
+
+
+  
+
+
