@@ -27,7 +27,7 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 ✅ Mode indicator ("Focus Mode", "Break Time", etc.)  
 ✅ Sound alert on session change  
 ✅ Fully responsive for mobile and desktop  
-✅ Custom theme support (Light, Dark, Special)
+✅ Custom theme support (Light and Dark)
 
 ---
 
@@ -35,8 +35,8 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 
 - React.js  
 - CSS Modules  
-- Vite / Create React App (whichever you used)  
-- Vercel for deployment (coming soon)
+- Vite  
+- Vercel for deployment
 
 ---
 
@@ -58,7 +58,7 @@ pomodoro-app/ ├── public/ │ └── index.html ├── src/ │ ├�
 
 Deployment
 Deployed on Vercel.
-🔗 Live Demo https://pomodoro-app-lovat.vercel.app/
+Live Demo https://pomodoro-app-lovat.vercel.app/
 
  License
 This project is licensed under the MIT License.
