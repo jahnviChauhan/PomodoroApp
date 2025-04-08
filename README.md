@@ -1,4 +1,4 @@
-# 🕒 Pomodoro Clock
+#  Pomodoro Clock
 
 A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you stay focused and productive by breaking your work into intervals (focus sessions) separated by short and long breaks.
 
