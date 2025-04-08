@@ -14,7 +14,7 @@ A simple yet powerful Pomodoro Timer app built using **React.js**. It helps you 
 ![Screenshot 1](./screenshots/timerDisplay.png)  
 *Main Timer Display*
 
-![Screenshot 2](./screenshots/darkTheme.png.png)  
+![Screenshot 2](./screenshots/darkTheme.png)
 *Theme Switcher & Settings Panel*
 
 ---
