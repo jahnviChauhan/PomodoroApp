@@ -48,7 +48,7 @@ pomodoro-app/ ├── public/ │ └── index.html ├── src/ │ ├�
 ##  Getting Started
 
 1. **Clone the repository**
-   git clone https://github.com/your-username/pomodoro-app.git
+   git clone https://github.com/jahnviChauhan/PomodoroApp.git
    cd pomodoro-app
 2. **Install dependencies**
    npm install
